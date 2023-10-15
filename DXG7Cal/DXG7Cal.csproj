@@ -7,7 +7,17 @@
     <UseWPF>true</UseWPF>
     <ApplicationManifest>app.manifest</ApplicationManifest>
     <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>dxg7cal.ico</ApplicationIcon>
   </PropertyGroup>
+  
+  <ItemGroup>
+    <None Remove="TemplateStudio.xml" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <EmbeddedResource Include="dxg7cal.ico" />
+    <EmbeddedResource Include="TemplateStudio.xml" />
+  </ItemGroup>
   
   <ItemGroup>
     <PackageReference Include="CommunityToolkit.Mvvm" Version="7.1.2" />

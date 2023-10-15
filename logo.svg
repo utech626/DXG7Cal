@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1451 1481" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g id="Artboard1" transform="matrix(1,0,0,1,-420.621,-662.818)">
+        <g transform="matrix(1.41634,0,0,1.29714,238.441,426.995)">
+            <ellipse cx="626.001" cy="806.514" rx="491.753" ry="502.277" style="fill:rgb(150,201,174);fill-opacity:0.63;"/>
+        </g>
+        <rect x="420.621" y="662.818" width="1450.6" height="1480.05" style="fill:none;"/>
+        <g transform="matrix(1.33453,0,0,1.33453,-200.552,-253.347)">
+            <g>
+                <g transform="matrix(1,0,0,1,4.30137,11.4703)">
+                    <ellipse cx="936.047" cy="1287.6" rx="334.69" ry="324.031" style="fill:rgb(28,160,73);"/>
+                </g>
+                <g transform="matrix(0.577274,0.933003,-0.727578,0.450173,1322.3,-391.088)">
+                    <path d="M1092.47,790.136L1334.69,1159.69L901.155,1179.91L1092.47,790.136Z" style="fill:rgb(28,160,73);"/>
+                </g>
+                <g transform="matrix(1.13581,0,0,1.16883,-165.423,-252.986)">
+                    <ellipse cx="982.946" cy="1315.31" rx="172.674" ry="164.147" style="fill:rgb(28,160,73);stroke:white;stroke-width:25.29px;"/>
+                </g>
+                <g id="outline" transform="matrix(29.6758,0,0,29.6758,562.338,1211.15)">
+                    <path d="M14,1.586L14,14.414L12.414,16L4.586,16L3,14.414L3,1.586L4.586,0L12.414,0L14,1.586Z" style="fill:rgb(246,246,246);fill-rule:nonzero;"/>
+                </g>
+                <g id="iconBg" transform="matrix(29.6758,0,0,29.6758,562.338,1211.15)">
+                    <path d="M6,6L7,6L7,7L6,7L6,6ZM8,11L9,11L9,10L8,10L8,11ZM8,13L9,13L9,12L8,12L8,13ZM6,13L7,13L7,12L6,12L6,13ZM6,11L7,11L7,10L6,10L6,11ZM6,9L7,9L7,8L6,8L6,9ZM10,13L11,13L11,10L10,10L10,13ZM6,5L11,5L11,3L6,3L6,5ZM8,9L9,9L9,8L8,8L8,9ZM10,7L11,7L11,6L10,6L10,7ZM13,2L13,14L12,15L5,15L4,14L4,2L5,1L12,1L13,2ZM12,2.414L11.586,2L5.414,2L5,2.414L5,13.586L5.414,14L11.586,14L12,13.586L12,2.414ZM10,9L11,9L11,8L10,8L10,9ZM8,7L9,7L9,6L8,6L8,7Z" style="fill:rgb(66,66,66);fill-rule:nonzero;"/>
+                </g>
+            </g>
+        </g>
+        <g transform="matrix(39.6032,0,0,39.6032,549.904,1362.96)">
+            <g id="Calculator_16x-1-.svg" serif:id="Calculator_16x[1].svg">
+                <g>
+                    <rect id="canvas" x="0" y="0" width="16" height="16" style="fill:rgb(246,246,246);fill-opacity:0;"/>
+                    <path id="iconFg" d="M11.586,2L5.414,2L5,2.414L5,13.586L5.414,14L11.586,14L12,13.586L12,2.414L11.586,2ZM7,13L6,13L6,12L7,12L7,13ZM7,11L6,11L6,10L7,10L7,11ZM7,9L6,9L6,8L7,8L7,9ZM7,7L6,7L6,6L7,6L7,7ZM9,13L8,13L8,12L9,12L9,13ZM9,11L8,11L8,10L9,10L9,11ZM9,9L8,9L8,8L9,8L9,9ZM9,7L8,7L8,6L9,6L9,7ZM11,13L10,13L10,10L11,10L11,13ZM11,9L10,9L10,8L11,8L11,9ZM11,7L10,7L10,6L11,6L11,7ZM11,5L6,5L6,3L11,3L11,5Z" style="fill:rgb(240,239,241);fill-rule:nonzero;"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
