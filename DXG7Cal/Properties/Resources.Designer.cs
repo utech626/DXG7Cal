@@ -61,7 +61,7 @@ namespace DXG7Cal.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Dexcom G7 Calibration Reqirement Calculator.
+        ///   Looks up a localized string similar to Dexcom G7 Calibration Requirement Calculator.
         /// </summary>
         public static string AppDisplayName {
             get {

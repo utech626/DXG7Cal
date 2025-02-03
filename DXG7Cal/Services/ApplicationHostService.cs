@@ -11,17 +11,15 @@ public class ApplicationHostService : IHostedService
 {
     private readonly IServiceProvider _serviceProvider;
     private readonly INavigationService _navigationService;
-    private readonly IToastNotificationsService _toastNotificationsService;
     private readonly IEnumerable<IActivationHandler> _activationHandlers;
     private IShellWindow _shellWindow;
     private bool _isInitialized;
 
-    public ApplicationHostService(IServiceProvider serviceProvider, IEnumerable<IActivationHandler> activationHandlers, INavigationService navigationService, IToastNotificationsService toastNotificationsService)
+    public ApplicationHostService(IServiceProvider serviceProvider, IEnumerable<IActivationHandler> activationHandlers, INavigationService navigationService)
     {
         _serviceProvider = serviceProvider;
         _activationHandlers = activationHandlers;
         _navigationService = navigationService;
-        _toastNotificationsService = toastNotificationsService;
     }
 
     public async Task StartAsync(CancellationToken cancellationToken)
@@ -53,7 +51,6 @@ public class ApplicationHostService : IHostedService
     {
         if (!_isInitialized)
         {
-            _toastNotificationsService.ShowToastNotificationSample();
             await Task.CompletedTask;
         }
     }

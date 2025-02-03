@@ -3,8 +3,6 @@ using System.Reflection;
 using System.Windows;
 using System.Windows.Threading;
 
-using CommunityToolkit.WinUI.Notifications;
-
 using DXG7Cal.Activation;
 using DXG7Cal.Contracts.Activation;
 using DXG7Cal.Contracts.Services;
@@ -39,22 +37,6 @@ public partial class App : Application
 
     private async void OnStartup(object sender, StartupEventArgs e)
     {
-        // https://docs.microsoft.com/windows/apps/design/shell/tiles-and-notifications/send-local-toast?tabs=desktop
-        ToastNotificationManagerCompat.OnActivated += (toastArgs) =>
-        {
-            Current.Dispatcher.Invoke(async () =>
-            {
-                var config = GetService<IConfiguration>();
-                config[ToastNotificationActivationHandler.ActivationArguments] = toastArgs.Argument;
-                await _host.StartAsync();
-            });
-        };
-
-        // TODO: Register arguments you want to use on App initialization
-        var activationArgs = new Dictionary<string, string>
-        {
-            { ToastNotificationActivationHandler.ActivationArguments, string.Empty }
-        };
         var appLocation = Path.GetDirectoryName(Assembly.GetEntryAssembly().Location);
 
         // For more information about .NET generic host see  https://docs.microsoft.com/aspnet/core/fundamentals/host/generic-host?view=aspnetcore-3.0
@@ -62,16 +44,9 @@ public partial class App : Application
                 .ConfigureAppConfiguration(c =>
                 {
                     c.SetBasePath(appLocation);
-                    c.AddInMemoryCollection(activationArgs);
                 })
                 .ConfigureServices(ConfigureServices)
                 .Build();
-
-        if (ToastNotificationManagerCompat.WasCurrentProcessToastActivated())
-        {
-            // ToastNotificationActivator code will run after this completes and will show a window if necessary.
-            return;
-        }
 
         await _host.StartAsync();
     }
@@ -89,7 +64,6 @@ public partial class App : Application
         // Core Services
 
         // Services
-        services.AddSingleton<IToastNotificationsService, ToastNotificationsService>();
         services.AddSingleton<IPageService, PageService>();
         services.AddSingleton<INavigationService, NavigationService>();
 

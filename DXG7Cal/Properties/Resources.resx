@@ -124,7 +124,7 @@
     <value>Go back</value>
   </data>
   <data name="AppDisplayName" xml:space="preserve">
-    <value>Dexcom G7 Calibration Reqirement Calculator</value>
+    <value>Dexcom G7 Calibration Requirement Calculator</value>
   </data>
   <data name="Dexcom G7 Reading Ranges" xml:space="preserve">
     <value>Your Readings on your Reciver Device should be in the following Range:</value>
